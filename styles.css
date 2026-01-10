@@ -1,0 +1,29 @@
+.content {
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.container {
+    background-color: darkolivegreen;
+    width: 90vmin;
+    height: 90vmin;
+    display: flex;
+    flex-direction: column;
+    padding: 5px;
+    gap: 5px;
+}
+
+.row {
+    background-color: darkcyan;
+    flex-grow:  1;
+    display: flex;
+    gap: 5px;
+}
+
+.box { 
+    background-color: burlywood;
+    flex-grow: 1;
+}
