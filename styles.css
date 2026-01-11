@@ -7,23 +7,26 @@
 }
 
 .container {
-    background-color: darkolivegreen;
+    background-color: black;
     width: 90vmin;
     height: 90vmin;
     display: flex;
     flex-direction: column;
     padding: 5px;
-    gap: 5px;
+    gap: 1px;
 }
 
 .row {
-    background-color: darkcyan;
     flex-grow:  1;
     display: flex;
-    gap: 5px;
+    gap: 1px;
 }
 
 .box { 
     background-color: burlywood;
     flex-grow: 1;
+}
+
+.marked {
+    background-color: black;
 }

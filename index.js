@@ -3,6 +3,7 @@ const content = document.querySelector('.content');
 
 const container = document.createElement('div');
 container.classList.add('container');
+container.addEventListener('mouseover', markBox);
 
 for (let y = 0; y < gridSize; y++ ) {
     // create row
@@ -19,3 +20,9 @@ for (let y = 0; y < gridSize; y++ ) {
 }
 
 content.appendChild(container);
+
+function markBox(event) {
+    if (event.target.classList.contains('box'))  {
+        event.target.classList.add('marked');
+    }
+}
