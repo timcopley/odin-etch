@@ -41,7 +41,7 @@ function markBox(event) {
 
 function resetGrid(event) {
     const gridSize = +(prompt('Enter a size for the grid -- Max: 100'));
-    if (typeof(gridSize) === 'number' & gridSize > 0 && gridSize <= 100) {
+    if (typeof(gridSize) === 'number' && gridSize > 0 && gridSize <= 100) {
         createGrid(gridSize);
     }
 };
